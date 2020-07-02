@@ -4,25 +4,22 @@
 body{
     background-color: crimson;
 }
-
-
 #cabecera{
     text-align: center;
 }
 h1{
     color: beige;
-    
-
+    text-align: center;
 }
 #contenido{
     text-align: center;
     margin: 10px;
     padding: 30px;
-
 }
 #contenedorbotones{
     align-items: center;
     flex-direction: column;
+    
     
 }
 .botonnivel{
@@ -127,7 +124,7 @@ p{
     display: inline-block;
 }
 .contenedor-elementos-inline-block{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 20px;
     padding: 20px;
     background-color: greenyellow; 
@@ -146,9 +143,7 @@ p{
     width: 60px;
 }
 
-#cabecera{
-    display: inline-block;
-}
+
 
 h1{
     letter-spacing: 3px;
@@ -181,7 +176,7 @@ h1{
     padding: 20px;
 }
 
-#contenedorbotones{
+#contenedorbotones3{
     margin-top: 100px;
     padding-top: 40px;
 }
