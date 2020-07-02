@@ -1,0 +1,138 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: crimson;
+}
+
+
+#cabecera{
+    text-align: center;
+}
+h1{
+    color: beige;
+    
+
+}
+#contenido{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+
+}
+#contenedorbotones{
+    align-items: center;
+    flex-direction: column;
+    
+}
+.botonnivel{
+    color: darkblue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.botonnivel:hover{
+    padding: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    color:white;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    align-items: center;
+    text-align: center;
+}
+   
+footer:hover{
+    filter: opacity(70%);
+}
+
+p{
+    color: aliceblue;
+    margin: 10px;
+    align-items: center;
+  
+}
+#contenedorfooter{
+    text-align: center;
+    flex-direction: column;
+   
+    
+}
+#contenedorfooter:hover{
+    filter: opacity(30%);
+}
+.titulo3{
+    letter-spacing: 20px;
+    color: greenyellow;
+}
+.titulo2{
+    letter-spacing: 20px;
+    color: blue;
+}
+.titulo1{
+    letter-spacing: 20px;
+    color: white;
+}
+.contenedor-parrafo{
+    margin: 10px;
+    padding: 10px;
+    text-align:left;
+}
+.parrafo1{
+    color:greenyellow;
+    font-size: 30px;
+}
+.parrafo2{
+    color: #003049;
+}
+.parrafo3{
+    color:greenyellow;
+}
+.parrafo4{
+    color: blue;
+}
+.contenedor-parrafo2{
+   text-align: right;
+   margin: 10px;
+   padding: 20px;
+   word-spacing: 15px;
+}
+.parrafo1-2{
+    color:greenyellow;
+    font-size: 30px;
+}
+.contenedor-elementos-inline{
+    margin:10px;
+    padding: 15px;
+    background-color: greenyellow; 
+    border-radius: 10px;
+   
+}
+.elemento-inline{
+    padding: 15px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+.contenedor-elementos-inline-block{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: greenyellow; 
+    display: inline-block; 
+    border-radius: 10px;
+    height:80px;
+    
+}
